@@ -28,4 +28,4 @@ jobs:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           external_repository: kurgalinn/kurgalinn
           publish_branch: master
-          publish_dir: ./site
+          destination_dir: ./site
